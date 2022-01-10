@@ -1,0 +1,351 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body,
+html {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.padding {
+  padding: 0 350px;
+}
+
+.green-btn {
+  display: inline-block;
+  background-color: #21b573;
+  border-radius: 33px;
+  padding: 1.2rem 2.8rem;
+  font-size: 1.6rem;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.section-title {
+  text-align: center;
+  color: #413960;
+  font-size: 3.6rem;
+  line-height: 5.4rem;
+  font-weight: 700;
+  margin-bottom: 62px;
+}
+
+header {
+  height: 576px;
+  background-color: #f0fff0;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 35px 350px;
+}
+
+header nav .logo {
+  width: 198px;
+  height: 60px;
+}
+
+header nav .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+header nav .main-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .main-menu a {
+  margin-left: 40px;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+header .banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: calc(100% - 130px);
+}
+
+header .banner__content span {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  color: #fd511a;
+  line-height: 2.4rem;
+}
+
+header .banner__content h1 {
+  color: #000000;
+  font-size: 4.8rem;
+  font-weight: bold;
+  line-height: 7rem;
+}
+
+header .banner__content h1 span {
+  color: #21b573;
+  font-size: 4.8rem;
+  font-weight: bold;
+  line-height: 7rem;
+}
+
+header .banner__content p {
+  font-size: 1.6rem;
+  color: #6c6b6b;
+  line-height: 3.6rem;
+  font-weight: 400;
+}
+
+header .banner__content button {
+  margin-top: 30px;
+}
+
+header .banner__img {
+  width: 48%;
+}
+
+header .banner__img img {
+  width: 80%;
+}
+
+.summery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 40px 0;
+}
+
+.summery__item {
+  width: 270px;
+  height: 270px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  background-color: #f8fffb;
+  border-radius: 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.summery__item:hover {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.summery__item h3 {
+  color: #413960;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  font-weight: 500;
+}
+
+.summery__item p {
+  color: #585859;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.summery__item img {
+  height: 80px;
+}
+
+.course {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.course__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.course__wrapper__item {
+  width: 370px;
+  padding: 20px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+}
+
+.course__wrapper__item img {
+  height: 234px;
+  width: 331px;
+  border-radius: 11px;
+}
+
+.course__wrapper__item h3 {
+  color: #413960;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  font-weight: 500;
+}
+
+.course__wrapper__item p {
+  color: #585859;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 19px;
+}
+
+.course__wrapper__item__footer {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.course__wrapper__item__footer h5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #585859;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.course__wrapper__item__footer h5 img {
+  height: 24px;
+  width: 24px;
+  line-height: 24px;
+}
+
+.testimonial {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.testimonial__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 700px;
+  margin: auto;
+}
+
+.testimonial__item img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  margin-right: 60px;
+}
+
+.testimonial__item p {
+  color: #000000;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 3rem;
+}
+
+.footer {
+  background-color: #282531;
+  color: #ffffff;
+  padding-top: 55px;
+  padding-bottom: 20px;
+}
+
+.footer p,
+.footer li {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3rem;
+}
+
+.footer__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__top__item:nth-of-type(1) {
+  width: 40%;
+}
+
+.footer__top__item h5 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3rem;
+  font-weight: 700;
+}
+
+.footer__top__item ul {
+  list-style-type: none;
+}
+
+.footer__bottom {
+  margin-top: 75px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
